@@ -1,0 +1,337 @@
+1683208982a:1:{s:17:"static-layout.htm";a:7:{s:8:"fileName";s:17:"static-layout.htm";s:7:"content";s:7255:"description = "Static layout"
+
+[staticPage]
+useContent = 1
+default = 0
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="{{ 'assets/css/swiper-bundle.min.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">
+    <link rel="stylesheet" media="screen and (min-width:2500px)" href="{{ 'assets/css/max.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:1440px)" href="{{ 'assets/css/laptop.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="{{ 'assets/css/laptopS.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="{{ 'assets/css/tablet.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:430px)" href="{{ 'assets/css/phone.css'|theme }}">
+    <title>MEDI-ART</title>
+    {% styles %}
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+            <img src="{{ 'assets/img/logo.png'|theme }}" alt="">
+            </div>
+            <div class="navbar-content">
+            <div class="nav-top">
+                <form>
+                <input type="text" placeholder="Поиск"  id="search">
+                <img src="{{ 'assets/img/search.png'|theme }}" class="search-logo">
+                </form>
+                <div class="nav-btn">
+                <button class="btn-wh">
+                    <img src="{{ 'assets/img/eye.png'|theme }}" class="btn-wh-img">
+                    для слабовидящих
+                    <img src="{{ 'assets/img/btn_b.png'|theme }}">
+                </button>
+                <button class="btn-bl">
+                    Записаться на прием
+                    <img src="{{ 'assets/img/btn_w.png'|theme }}">
+                </button>
+                </div>
+                
+            </div>
+            <div class="nav-links">
+                <ul class="links">
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#services">Медицинские услуги</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Цены</a></li>
+                <li><a href="#medi-art">О клинике</a></li>
+                <li><a href="#doctors">Врачи</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#blog">Блог</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            
+                </ul>
+                <div class="num">
+                <img src="{{ 'assets/img/num.png'|theme }}" alt="">
+                <p>+7 (777) 955‒59‒95</p>
+                </div>
+            </div>
+            </div>
+            
+        
+            <div class="toggle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            </div>
+        </div>
+        
+        <div class="header" id="main">
+            <div class="header-content">
+                <h1>Акция по гинекологии</h1>
+                <p>Комплексное обследование у врача гинеколога всего за 13 500 тг.</p>
+                <button><a href="">Узнать подробнее</a></button>
+            
+            </div>
+            <div class="lines">
+            <img src="{{ 'assets/img/w-lines.png'|theme }}">
+            </div>
+            <div class="fix-icons">
+            <a href="#"><img src="{{ 'assets/img/wha.png'|theme }}"></a>
+            <a href="#"><img src="{{ 'assets/img/ph.png'|theme }}"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        {% page %}
+    </div>
+
+
+    <footer>
+        <div class="foot-cont">
+          <div class="foot-head">
+            <p>ЗВОНИТЕ НАМ по всем вопросам:</p>
+            <h3>+7 (777) 955-59-95</h3>
+            <div class="foot-icon">
+              <a href="#"><img src="{{ 'assets/img/wha.png'|theme }}"></a>
+              <a href="#"><img src="{{ 'assets/img/ph.png'|theme }}"></a>
+            </div>
+          </div>
+          <div class="foot-info">
+            <div class="column">
+              <h1 class="title"><a href="#">Медицинские услуги</a></h1>
+              <div class="column-links">
+                <div class="links">
+                  <a href="#">Гинекология</a>
+                  <a href="#">Урология</a>
+                  <a href="#">Эндокринология</a>
+                  <a href="#">Андрология</a>          
+                </div>
+                <div class="links">
+                  <a href="#">Урогинекологии</a>
+                  <a href="#">УЗИ диагностика</a>
+                  <a href="#">Физотерапия</a>
+                  <a href="#">Лабаратория</a>          
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <h1 class="title"><a href="#">о КЛИНИКЕ</a></h1>
+              <h1 class="title"><a href="#">ЦЕНЫ</a></h1>
+              <div class="links" style="margin-top: 10px;">
+                <a href="#">Прайс на услуги врачей</a>
+                <a href="#">Прайс на лабораторные <br> исследования</a>  
+              </div>
+            </div>
+            <div class="column">
+              <h1 class="title"><a href="#">врачи</a></h1>
+              <h1 class="title"><a href="#">отзывы</a></h1>
+            </div>
+            <div class="column">
+              <h1 class="title"><a href="#">Блог</a></h1>
+              <div class="links">
+                <a href="#">Статьи</a>
+                <a href="#">Что мы лечим</a>  
+              </div>
+              <h1 class="title"><a href="#">акции</a></h1>
+            </div>
+            <div class="column">
+              <h1 class="title"><a href="#">Контакты</a></h1>
+              <p>г.Астана, пр. Тауельсыздик, 20/1</p>
+              <h1 class="title"><a href="#">Время работы:</a></h1>
+              <p>Пн-Пт: с 08.30 до 19.00 <br> Сб: с 08.30 до 16.00 <br> Вс: Выходной</p>
+            </div>
+            <button>Записаться на прием</button>
+            
+          </div>
+          <div class="foot-line"></div>
+          <h2>ABC DESIGN</h2>
+        </div>
+    </footer>
+    
+    
+
+    <!-- Scripts -->
+    <script src="{{ 'assets/js/swiper-bundle.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/script.js'|theme }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    {% framework extras %}
+    {% scripts %}
+
+</body>
+</html>";s:5:"mtime";i:1683199205;s:6:"markup";s:7175:"<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="{{ 'assets/css/swiper-bundle.min.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">
+    <link rel="stylesheet" media="screen and (min-width:2500px)" href="{{ 'assets/css/max.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:1440px)" href="{{ 'assets/css/laptop.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="{{ 'assets/css/laptopS.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="{{ 'assets/css/tablet.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:430px)" href="{{ 'assets/css/phone.css'|theme }}">
+    <title>MEDI-ART</title>
+    {% styles %}
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+            <img src="{{ 'assets/img/logo.png'|theme }}" alt="">
+            </div>
+            <div class="navbar-content">
+            <div class="nav-top">
+                <form>
+                <input type="text" placeholder="Поиск"  id="search">
+                <img src="{{ 'assets/img/search.png'|theme }}" class="search-logo">
+                </form>
+                <div class="nav-btn">
+                <button class="btn-wh">
+                    <img src="{{ 'assets/img/eye.png'|theme }}" class="btn-wh-img">
+                    для слабовидящих
+                    <img src="{{ 'assets/img/btn_b.png'|theme }}">
+                </button>
+                <button class="btn-bl">
+                    Записаться на прием
+                    <img src="{{ 'assets/img/btn_w.png'|theme }}">
+                </button>
+                </div>
+                
+            </div>
+            <div class="nav-links">
+                <ul class="links">
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#services">Медицинские услуги</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Цены</a></li>
+                <li><a href="#medi-art">О клинике</a></li>
+                <li><a href="#doctors">Врачи</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#blog">Блог</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            
+                </ul>
+                <div class="num">
+                <img src="{{ 'assets/img/num.png'|theme }}" alt="">
+                <p>+7 (777) 955‒59‒95</p>
+                </div>
+            </div>
+            </div>
+            
+        
+            <div class="toggle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            </div>
+        </div>
+        
+        <div class="header" id="main">
+            <div class="header-content">
+                <h1>Акция по гинекологии</h1>
+                <p>Комплексное обследование у врача гинеколога всего за 13 500 тг.</p>
+                <button><a href="">Узнать подробнее</a></button>
+            
+            </div>
+            <div class="lines">
+            <img src="{{ 'assets/img/w-lines.png'|theme }}">
+            </div>
+            <div class="fix-icons">
+            <a href="#"><img src="{{ 'assets/img/wha.png'|theme }}"></a>
+            <a href="#"><img src="{{ 'assets/img/ph.png'|theme }}"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        {% page %}
+    </div>
+
+
+    <footer>
+        <div class="foot-cont">
+          <div class="foot-head">
+            <p>ЗВОНИТЕ НАМ по всем вопросам:</p>
+            <h3>+7 (777) 955-59-95</h3>
+            <div class="foot-icon">
+              <a href="#"><img src="{{ 'assets/img/wha.png'|theme }}"></a>
+              <a href="#"><img src="{{ 'assets/img/ph.png'|theme }}"></a>
+            </div>
+          </div>
+          <div class="foot-info">
+            <div class="column">
+              <h1 class="title"><a href="#">Медицинские услуги</a></h1>
+              <div class="column-links">
+                <div class="links">
+                  <a href="#">Гинекология</a>
+                  <a href="#">Урология</a>
+                  <a href="#">Эндокринология</a>
+                  <a href="#">Андрология</a>          
+                </div>
+                <div class="links">
+                  <a href="#">Урогинекологии</a>
+                  <a href="#">УЗИ диагностика</a>
+                  <a href="#">Физотерапия</a>
+                  <a href="#">Лабаратория</a>          
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <h1 class="title"><a href="#">о КЛИНИКЕ</a></h1>
+              <h1 class="title"><a href="#">ЦЕНЫ</a></h1>
+              <div class="links" style="margin-top: 10px;">
+                <a href="#">Прайс на услуги врачей</a>
+                <a href="#">Прайс на лабораторные <br> исследования</a>  
+              </div>
+            </div>
+            <div class="column">
+              <h1 class="title"><a href="#">врачи</a></h1>
+              <h1 class="title"><a href="#">отзывы</a></h1>
+            </div>
+            <div class="column">
+              <h1 class="title"><a href="#">Блог</a></h1>
+              <div class="links">
+                <a href="#">Статьи</a>
+                <a href="#">Что мы лечим</a>  
+              </div>
+              <h1 class="title"><a href="#">акции</a></h1>
+            </div>
+            <div class="column">
+              <h1 class="title"><a href="#">Контакты</a></h1>
+              <p>г.Астана, пр. Тауельсыздик, 20/1</p>
+              <h1 class="title"><a href="#">Время работы:</a></h1>
+              <p>Пн-Пт: с 08.30 до 19.00 <br> Сб: с 08.30 до 16.00 <br> Вс: Выходной</p>
+            </div>
+            <button>Записаться на прием</button>
+            
+          </div>
+          <div class="foot-line"></div>
+          <h2>ABC DESIGN</h2>
+        </div>
+    </footer>
+    
+    
+
+    <!-- Scripts -->
+    <script src="{{ 'assets/js/swiper-bundle.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/script.js'|theme }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    {% framework extras %}
+    {% scripts %}
+
+</body>
+</html>";s:4:"code";N;s:11:"description";s:13:"Static layout";s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"0";}}}

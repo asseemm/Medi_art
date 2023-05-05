@@ -1,0 +1,30 @@
+1683269206a:1:{s:12:"medi-art.htm";a:5:{s:8:"fileName";s:12:"medi-art.htm";s:7:"content";s:514:"
+<div class="medi-art" id="medi-art">
+    <div class="medi-art-cont">
+      <div class="med-img"></div>
+      <div class="art-info">
+        <div class="title">
+          <h1>Медцентр Medi-Art</h1>
+          <div class="title-line"></div>
+        </div>
+        {% component 'contenteditor' file="about/about-text.htm" fixture="p" %}
+        <h2>Ринат Нугуманов</h2>
+        {% component 'contenteditor' file="about/about-dir.htm" fixture="p" %}
+
+      </div>
+    </div>
+</div>";s:5:"mtime";i:1683194677;s:6:"markup";s:512:"<div class="medi-art" id="medi-art">
+    <div class="medi-art-cont">
+      <div class="med-img"></div>
+      <div class="art-info">
+        <div class="title">
+          <h1>Медцентр Medi-Art</h1>
+          <div class="title-line"></div>
+        </div>
+        {% component 'contenteditor' file="about/about-text.htm" fixture="p" %}
+        <h2>Ринат Нугуманов</h2>
+        {% component 'contenteditor' file="about/about-dir.htm" fixture="p" %}
+
+      </div>
+    </div>
+</div>";s:4:"code";N;}}

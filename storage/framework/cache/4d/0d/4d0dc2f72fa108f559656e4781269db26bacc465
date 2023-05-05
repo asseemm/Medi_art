@@ -1,0 +1,83 @@
+1683269206a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1549:"description = "Default layout"
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="{{ 'assets/css/swiper-bundle.min.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">
+    <link rel="stylesheet" media="screen and (min-width:2500px)" href="{{ 'assets/css/max.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:1440px)" href="{{ 'assets/css/laptop.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="{{ 'assets/css/laptopS.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="{{ 'assets/css/tablet.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:430px)" href="{{ 'assets/css/phone.css'|theme }}">
+    <title>MEDI-ART</title>
+    {% styles %}
+</head>
+<body>
+
+    {% partial 'site/header' %}
+
+
+    <div class="page">
+        {% page %}
+    </div>
+
+
+    {% partial 'site/footer' %}
+    
+    
+
+    <!-- Scripts -->
+    <script src="{{ 'assets/js/swiper-bundle.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/script.js'|theme }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    {% framework extras %}
+    {% scripts %}
+
+</body>
+</html>";s:5:"mtime";i:1683195199;s:6:"markup";s:1513:"<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="{{ 'assets/css/swiper-bundle.min.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">
+    <link rel="stylesheet" media="screen and (min-width:2500px)" href="{{ 'assets/css/max.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:1440px)" href="{{ 'assets/css/laptop.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="{{ 'assets/css/laptopS.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="{{ 'assets/css/tablet.css'|theme }}">
+    <link rel="stylesheet" media="screen and (max-width:430px)" href="{{ 'assets/css/phone.css'|theme }}">
+    <title>MEDI-ART</title>
+    {% styles %}
+</head>
+<body>
+
+    {% partial 'site/header' %}
+
+
+    <div class="page">
+        {% page %}
+    </div>
+
+
+    {% partial 'site/footer' %}
+    
+    
+
+    <!-- Scripts -->
+    <script src="{{ 'assets/js/swiper-bundle.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/script.js'|theme }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    {% framework extras %}
+    {% scripts %}
+
+</body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";}}

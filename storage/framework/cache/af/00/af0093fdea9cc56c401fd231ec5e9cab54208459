@@ -1,0 +1,73 @@
+1683269206a:1:{s:16:"med-branches.htm";a:5:{s:8:"fileName";s:16:"med-branches.htm";s:7:"content";s:1376:"<div class="med-branches">
+    <div class="med-branch-cont">
+      <div class="title">
+        <h1>Отделения мед центра</h1>
+        <div class="title-line"></div>
+      </div>
+      <div class="branches">
+        <div class="branch">
+          <div class="img-box br1"></div>
+          <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+          <h2>Гинекология</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="branch">
+          <div class="img-box br2"></div>
+          <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+          <h2>Урология</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="branch">
+          <div class="img-box br3"></div>
+          <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+          <h2>Эндокринология</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="branch">
+          <div class="img-box br4"></div>
+          <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+          <h2>УЗИ диагностика</h2>
+          <div class="title-line"></div>
+        </div>
+      </div>
+      <div class="med-lines">
+        <img src="{{ 'assets/img/lines.png'|theme }}" alt="">
+      </div>
+    </div>
+  </div>";s:5:"mtime";i:1683142878;s:6:"markup";s:1376:"<div class="med-branches">
+    <div class="med-branch-cont">
+      <div class="title">
+        <h1>Отделения мед центра</h1>
+        <div class="title-line"></div>
+      </div>
+      <div class="branches">
+        <div class="branch">
+          <div class="img-box br1"></div>
+          <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+          <h2>Гинекология</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="branch">
+          <div class="img-box br2"></div>
+          <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+          <h2>Урология</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="branch">
+          <div class="img-box br3"></div>
+          <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+          <h2>Эндокринология</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="branch">
+          <div class="img-box br4"></div>
+          <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+          <h2>УЗИ диагностика</h2>
+          <div class="title-line"></div>
+        </div>
+      </div>
+      <div class="med-lines">
+        <img src="{{ 'assets/img/lines.png'|theme }}" alt="">
+      </div>
+    </div>
+  </div>";s:4:"code";N;}}

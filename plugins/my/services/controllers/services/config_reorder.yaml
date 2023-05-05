@@ -1,0 +1,4 @@
+title: Services
+modelClass: My\Services\Models\MyServices
+toolbar:
+    buttons: reorder_toolbar

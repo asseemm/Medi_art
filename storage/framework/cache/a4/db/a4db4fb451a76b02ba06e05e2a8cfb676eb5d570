@@ -1,0 +1,121 @@
+1683269206a:1:{s:15:"site/footer.htm";a:5:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:2613:"<footer>
+    <div class="foot-cont">
+      <div class="foot-head">
+        <p>ЗВОНИТЕ НАМ по всем вопросам:</p>
+        <h3>+7 (777) 955-59-95</h3>
+        <div class="foot-icon">
+          <a href="#"><img src="{{ 'assets/img/wha.png'|theme }}"></a>
+          <a href="#"><img src="{{ 'assets/img/ph.png'|theme }}"></a>
+        </div>
+      </div>
+      <div class="foot-info">
+        <div class="column">
+          <h1 class="title"><a href="#">Медицинские услуги</a></h1>
+          <div class="column-links">
+            <div class="links">
+              <a href="#">Гинекология</a>
+              <a href="#">Урология</a>
+              <a href="#">Эндокринология</a>
+              <a href="#">Андрология</a>          
+            </div>
+            <div class="links">
+              <a href="#">Урогинекологии</a>
+              <a href="#">УЗИ диагностика</a>
+              <a href="#">Физотерапия</a>
+              <a href="#">Лабаратория</a>          
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <h1 class="title"><a href="#">о КЛИНИКЕ</a></h1>
+          <h1 class="title"><a href="#">ЦЕНЫ</a></h1>
+          <div class="links" style="margin-top: 10px;">
+            <a href="#">Прайс на услуги врачей</a>
+            <a href="#">Прайс на лабораторные <br> исследования</a>  
+          </div>
+        </div>
+        <div class="column">
+          <h1 class="title"><a href="#">врачи</a></h1>
+          <h1 class="title"><a href="#">отзывы</a></h1>
+        </div>
+        <div class="column">
+          <h1 class="title"><a href="#">Блог</a></h1>
+          <div class="links">
+            <a href="#">Статьи</a>
+            <a href="#">Что мы лечим</a>  
+          </div>
+          <h1 class="title"><a href="#">акции</a></h1>
+        </div>
+        <div class="column">
+          <h1 class="title"><a href="#">Контакты</a></h1>
+          <p>г.Астана, пр. Тауельсыздик, 20/1</p>
+          <h1 class="title"><a href="#">Время работы:</a></h1>
+          <p>Пн-Пт: с 08.30 до 19.00 <br> Сб: с 08.30 до 16.00 <br> Вс: Выходной</p>
+        </div>
+        <button>Записаться на прием</button>
+        
+      </div>
+      <div class="foot-line"></div>
+      <h2>ABC DESIGN</h2>
+    </div>
+</footer>";s:5:"mtime";i:1683045263;s:6:"markup";s:2613:"<footer>
+    <div class="foot-cont">
+      <div class="foot-head">
+        <p>ЗВОНИТЕ НАМ по всем вопросам:</p>
+        <h3>+7 (777) 955-59-95</h3>
+        <div class="foot-icon">
+          <a href="#"><img src="{{ 'assets/img/wha.png'|theme }}"></a>
+          <a href="#"><img src="{{ 'assets/img/ph.png'|theme }}"></a>
+        </div>
+      </div>
+      <div class="foot-info">
+        <div class="column">
+          <h1 class="title"><a href="#">Медицинские услуги</a></h1>
+          <div class="column-links">
+            <div class="links">
+              <a href="#">Гинекология</a>
+              <a href="#">Урология</a>
+              <a href="#">Эндокринология</a>
+              <a href="#">Андрология</a>          
+            </div>
+            <div class="links">
+              <a href="#">Урогинекологии</a>
+              <a href="#">УЗИ диагностика</a>
+              <a href="#">Физотерапия</a>
+              <a href="#">Лабаратория</a>          
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <h1 class="title"><a href="#">о КЛИНИКЕ</a></h1>
+          <h1 class="title"><a href="#">ЦЕНЫ</a></h1>
+          <div class="links" style="margin-top: 10px;">
+            <a href="#">Прайс на услуги врачей</a>
+            <a href="#">Прайс на лабораторные <br> исследования</a>  
+          </div>
+        </div>
+        <div class="column">
+          <h1 class="title"><a href="#">врачи</a></h1>
+          <h1 class="title"><a href="#">отзывы</a></h1>
+        </div>
+        <div class="column">
+          <h1 class="title"><a href="#">Блог</a></h1>
+          <div class="links">
+            <a href="#">Статьи</a>
+            <a href="#">Что мы лечим</a>  
+          </div>
+          <h1 class="title"><a href="#">акции</a></h1>
+        </div>
+        <div class="column">
+          <h1 class="title"><a href="#">Контакты</a></h1>
+          <p>г.Астана, пр. Тауельсыздик, 20/1</p>
+          <h1 class="title"><a href="#">Время работы:</a></h1>
+          <p>Пн-Пт: с 08.30 до 19.00 <br> Сб: с 08.30 до 16.00 <br> Вс: Выходной</p>
+        </div>
+        <button>Записаться на прием</button>
+        
+      </div>
+      <div class="foot-line"></div>
+      <h2>ABC DESIGN</h2>
+    </div>
+</footer>";s:4:"code";N;}}

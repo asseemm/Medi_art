@@ -1,0 +1,70 @@
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+          <img src="{{ 'assets/img/logo.png'|theme }}" alt="">
+        </div>
+        <div class="navbar-content">
+          <div class="nav-top">
+            <form>
+              <input type="text" placeholder="Поиск"  id="search">
+              <img src="{{ 'assets/img/search.png'|theme }}" class="search-logo">
+            </form>
+            <div class="nav-btn">
+              <button class="btn-wh">
+                <img src="{{ 'assets/img/eye.png'|theme }}" class="btn-wh-img">
+                для слабовидящих
+                <img src="{{ 'assets/img/btn_b.png'|theme }}">
+              </button>
+              <button class="btn-bl">
+                Записаться на прием
+                <img src="{{ 'assets/img/btn_w.png'|theme }}">
+              </button>
+            </div>
+            
+          </div>
+          <div class="nav-links">
+            <ul class="links">
+              <li><a href="#main">Главная</a></li>
+              <li><a href="#services">Медицинские услуги</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Цены</a></li>
+              <li><a href="#medi-art">О клинике</a></li>
+              <li><a href="#doctors">Врачи</a></li>
+              <li><a href="#reviews">Отзывы</a></li>
+              <li><a href="#blog">Блог</a></li>
+              <li><a href="#contact">Контакты</a></li>
+        
+            </ul>
+            <div class="num">
+              <img src="{{ 'assets/img/num.png'|theme }}" alt="">
+              <p>+7 (777) 955‒59‒95</p>
+            </div>
+          </div>
+        </div>
+        
+    
+        <div class="toggle">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+      
+      <div class="header" id="main">
+        <div class="header-content">
+          {% component 'contenteditor' file="intro/title.htm" fixture="h1" %}
+          
+          {% component 'contenteditor' file="intro/subtitle.htm" fixture="p" %}
+          <button><a href="">Узнать подробнее</a></button>
+          
+        </div>
+        <div class="lines">
+          <img src="{{ 'assets/img/w-lines.png'|theme }}">
+        </div>
+        <div class="fix-icons">
+          <a href="#"><img src="{{ 'assets/img/wha.png'|theme }}"></a>
+          <a href="#"><img src="{{ 'assets/img/ph.png'|theme }}"></a>
+        </div>
+      </div>
+</header>

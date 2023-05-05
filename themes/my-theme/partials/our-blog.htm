@@ -1,0 +1,93 @@
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "blog"
+postsPerPage = 3
+noPostsMessage = "Статей нет"
+sortOrder = "published_at desc"
+categoryPage = "home"
+postPage = "home"
+==
+{% set posts = blogPosts.posts %}
+
+<div class="our-blog" id="blog">
+    <div class="our-blog-cont">
+      <div class="title">
+        <h1>Наш блог</h1>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="card-body">
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="slider-card swiper-slide">
+                      <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                      <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                      <div class="slider-card-content">
+                        <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                        <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                        <div class="title-line"></div>
+                        <p>01.01.2023</p>
+                      </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog2.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+                <div class="slider-card-content">
+                  <a href="#">#ЧТО МЫ ЛЕЧИМ?</a>
+                  <h2 class="card-title">Пиелонефрит: причины, <br> симптомы, диагностика и лечение </h2>
+                  <div class="title-line"></div>
+                  <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog3.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                  <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                  <h2 class="card-title">Мужской климакс — заболевание, <br> требующее должного внимания!</h2>
+                  <div class="title-line"></div>
+                  <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                    <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                    <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                    <div class="title-line"></div>
+                    <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                    <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                    <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                    <div class="title-line"></div>
+                    <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                    <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                    <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                    <div class="title-line"></div>
+                    <p>01.01.2023</p>
+                  </div>
+                </div>
+            </div>
+            
+  
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

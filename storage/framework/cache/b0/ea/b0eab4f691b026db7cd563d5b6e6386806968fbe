@@ -1,0 +1,176 @@
+1683269206a:1:{s:12:"our-blog.htm";a:6:{s:8:"fileName";s:12:"our-blog.htm";s:7:"content";s:4643:"[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "blog"
+postsPerPage = 3
+noPostsMessage = "Статей нет"
+sortOrder = "published_at desc"
+categoryPage = "home"
+postPage = "home"
+==
+{% set posts = blogPosts.posts %}
+
+<div class="our-blog" id="blog">
+    <div class="our-blog-cont">
+      <div class="title">
+        <h1>Наш блог</h1>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="card-body">
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="slider-card swiper-slide">
+                      <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                      <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                      <div class="slider-card-content">
+                        <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                        <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                        <div class="title-line"></div>
+                        <p>01.01.2023</p>
+                      </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog2.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+                <div class="slider-card-content">
+                  <a href="#">#ЧТО МЫ ЛЕЧИМ?</a>
+                  <h2 class="card-title">Пиелонефрит: причины, <br> симптомы, диагностика и лечение </h2>
+                  <div class="title-line"></div>
+                  <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog3.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                  <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                  <h2 class="card-title">Мужской климакс — заболевание, <br> требующее должного внимания!</h2>
+                  <div class="title-line"></div>
+                  <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                    <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                    <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                    <div class="title-line"></div>
+                    <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                    <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                    <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                    <div class="title-line"></div>
+                    <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                    <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                    <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                    <div class="title-line"></div>
+                    <p>01.01.2023</p>
+                  </div>
+                </div>
+            </div>
+            
+  
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>";s:5:"mtime";i:1683208664;s:6:"markup";s:4440:"{% set posts = blogPosts.posts %}
+
+<div class="our-blog" id="blog">
+    <div class="our-blog-cont">
+      <div class="title">
+        <h1>Наш блог</h1>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="card-body">
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="slider-card swiper-slide">
+                      <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                      <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                      <div class="slider-card-content">
+                        <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                        <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                        <div class="title-line"></div>
+                        <p>01.01.2023</p>
+                      </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog2.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}"></button>
+                <div class="slider-card-content">
+                  <a href="#">#ЧТО МЫ ЛЕЧИМ?</a>
+                  <h2 class="card-title">Пиелонефрит: причины, <br> симптомы, диагностика и лечение </h2>
+                  <div class="title-line"></div>
+                  <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog3.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                  <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                  <h2 class="card-title">Мужской климакс — заболевание, <br> требующее должного внимания!</h2>
+                  <div class="title-line"></div>
+                  <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                    <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                    <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                    <div class="title-line"></div>
+                    <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                    <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                    <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                    <div class="title-line"></div>
+                    <p>01.01.2023</p>
+                </div>
+              </div>
+              <div class="slider-card swiper-slide">
+                <img src="{{ 'assets/img/blog11.png'|theme }}" class="blog-img">
+                <button><img src="{{ 'assets/img/down2.png'|theme }}" alt=""></button>
+                <div class="slider-card-content">
+                    <a href="#">#ПОЛЕЗНЫЕ СТАТЬИ</a>
+                    <h2 class="card-title">Крауроз вульвы или <br> склероатрофический лихен</h2>
+                    <div class="title-line"></div>
+                    <p>01.01.2023</p>
+                  </div>
+                </div>
+            </div>
+            
+  
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>";s:4:"code";N;s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:4:"blog";s:12:"postsPerPage";s:1:"3";s:14:"noPostsMessage";s:19:"Статей нет";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:4:"home";s:8:"postPage";s:4:"home";}}}

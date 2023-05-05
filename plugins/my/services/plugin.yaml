@@ -1,0 +1,11 @@
+plugin:
+    name: module
+    description: 'my.form::lang.plugin.description'
+    author: My
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Services
+        url: my/services/services
+        icon: icon-life-ring
